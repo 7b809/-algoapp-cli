@@ -1,0 +1,43 @@
+.env
+.env.*
+venv/
+__pycache__/
+*.py[cod]
+*.log
+myenv
+.myenv
+temp
+output
+test
+tests
+
+
+# Secrets & environment variables
+.env
+.env.*
+!.env.example
+config.json
+
+# Python bytecode & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+myenv/
+env/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
